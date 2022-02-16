@@ -1,0 +1,82 @@
+.container {
+  display: grid;
+  grid-template-columns: 58% 42%;
+  background-image: url(../images/bg-pattern-desktop.svg);
+
+  &--text {
+    display: grid;
+    grid-template-rows: 22.7rem 12.1rem 1fr;
+  }
+  &--text-logo {
+    position: relative;
+  }
+}
+
+span {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.span-1,
+.span-2,
+.span-3 {
+  display: block;
+  font-size: 4.6rem;
+  text-transform: uppercase;
+  margin-left: 16.3rem;
+  letter-spacing: 2rem;
+  line-height: 1.2;
+}
+
+.span-2,
+.span-3 {
+  font-weight: 600;
+}
+
+.span-1 {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+.span-4 {
+  margin-left: 16.5rem;
+  font-size: 1.6rem;
+  color: hsl(0, 36%, 70%);
+  transform: translateY(9rem);
+  word-spacing: 0.7rem;
+  line-height: 1.5;
+}
+
+.logo {
+  position: absolute;
+  top: 6.3rem;
+  left: 16.5rem;
+}
+
+.mail {
+  margin-top: 4.6rem;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 2rem;
+  width: 43rem;
+  &::placeholder {
+    color: hsl(0, 36%, 70%);
+  }
+  border: 1px solid hsla(0, 93%, 68%, 0.473);
+}
+
+.warning {
+  font-size: 1.2rem;
+  margin-left: 2.4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: sans-serif;
+}

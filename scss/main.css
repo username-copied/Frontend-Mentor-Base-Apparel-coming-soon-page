@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 58% 42%;
+      grid-template-columns: 58% 42%;
+  background-image: url(../images/bg-pattern-desktop.svg);
+}
+
+.container--text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 22.7rem 12.1rem 1fr;
+      grid-template-rows: 22.7rem 12.1rem 1fr;
+}
+
+.container--text-logo {
+  position: relative;
+}
+
+span {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.span-1,
+.span-2,
+.span-3 {
+  display: block;
+  font-size: 4.6rem;
+  text-transform: uppercase;
+  margin-left: 16.3rem;
+  letter-spacing: 2rem;
+  line-height: 1.2;
+}
+
+.span-2,
+.span-3 {
+  font-weight: 600;
+}
+
+.span-1 {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+.span-4 {
+  margin-left: 16.5rem;
+  font-size: 1.6rem;
+  color: #ce9797;
+  -webkit-transform: translateY(9rem);
+          transform: translateY(9rem);
+  word-spacing: 0.7rem;
+  line-height: 1.5;
+}
+
+.logo {
+  position: absolute;
+  top: 6.3rem;
+  left: 16.5rem;
+}
+
+.mail {
+  margin-top: 4.6rem;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 2rem;
+  width: 43rem;
+  border: 1px solid rgba(249, 98, 98, 0.473);
+}
+
+.mail::-webkit-input-placeholder {
+  color: #ce9797;
+}
+
+.mail:-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.mail::-ms-input-placeholder {
+  color: #ce9797;
+}
+
+.mail::placeholder {
+  color: #ce9797;
+}
+
+.warning {
+  font-size: 1.2rem;
+  margin-left: 2.4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 1.6rem;
+  border-radius: 10rem;
+  margin-left: -11.6rem;
+  width: 10.2rem;
+  -webkit-transform: translateY(0.4rem);
+          transform: translateY(0.4rem);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(249, 98, 98, 0.295)), to(rgba(249, 98, 98, 0.705)));
+  background-image: linear-gradient(to right, rgba(249, 98, 98, 0.295), rgba(249, 98, 98, 0.705));
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgba(255, 218, 218, 0);
+  cursor: pointer;
+}
+
+.error {
+  -webkit-transform: translateX(-11.5rem) translateY(0.7rem);
+          transform: translateX(-11.5rem) translateY(0.7rem);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+/*# sourceMappingURL=main.css.map */
